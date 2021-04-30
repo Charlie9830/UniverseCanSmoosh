@@ -137,7 +137,7 @@ local function calculateFreeAddresses(universeNumber, progressHandle)
 end
 
 local function askForUniverseNumber()
-    local result = gma.textinput("Enter Universe Number");
+    local result = gma.textinput("Enter Universe Number", "");
 
     local isValid, universeNumber = validateUniverseNumber(result);
 
